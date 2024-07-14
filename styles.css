@@ -92,6 +92,10 @@ body{
     gap: 1rem;
 }
 
+svg{
+  transform: translate(13.5rem,-10px);
+}
+
 button{
 border: none;
 color: var(--clr-PaleBlue);
@@ -156,3 +160,53 @@ button:hover{
 }
 
 /* The other articles */
+.workContainer{
+  display: flex;
+  background-color: var(--clr-work-lightred);
+  overflow: hidden;
+  background-image: url(./images/icon-work.svg);
+  background-repeat: no-repeat;
+  background-position-x: 13rem;
+  background-position-y: -0.625rem;
+  border-radius: .9375rem;
+}
+
+.withinContainer{
+  width: 100%;
+  height: 75%;
+  background-color: #1d204b;
+  margin-top: auto;
+  border-radius: .9375rem;
+
+  display: flex;
+}
+
+.heading{
+  font-size: 1rem;
+  font-weight: var(--fw-bold);
+}
+
+.heading button{
+  margin-left: 12.8rem;
+}
+
+.belowheading{
+  width: 100%;
+}
+
+.hrs{
+  font-size: 1.7rem;
+  font-weight: var(--fw-light);
+}
+
+.previous{
+  margin-left:8rem;
+  font-size: 0.8rem;
+  font-weight: var(--fw-light);
+}
+
+.belowheading{
+  margin-top:1.5rem ;
+  margin-left: 1.1rem;
+  margin-right: 1.1rem;
+}
