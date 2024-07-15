@@ -82,14 +82,14 @@ body{
     height: 100%;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 12rem repeat(6,10rem);
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 svg{
