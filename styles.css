@@ -80,6 +80,7 @@ body{
 
 .container{
     height: 100%;
+    width: 100%;
     margin-top: 3rem;
     margin-bottom: 3rem;
     display: grid;
@@ -162,6 +163,7 @@ button:hover{
 /* The other articles */
 .workContainer{
   display: flex;
+  width: 100%;
   background-color: var(--clr-work-lightred);
   overflow: hidden;
   background-image: url(./images/icon-work.svg);
